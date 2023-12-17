@@ -41,6 +41,7 @@ user:UsersModel={}
   }
 cancel(id:any){
  this.getExistingUser(id)
+  this.router.navigateByUrl('/users')
 }
 
 
