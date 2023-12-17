@@ -1,0 +1,12 @@
+<nav class="navbar bg-warning ">
+    <div class="container-fluid d-flex">
+      <a class="navbar-brand text-light fw-bolder fs-2 d-flex">
+        <i class="fa-solid fa-users-gear me-3"></i>
+        Employee-Portal
+
+      </a>
+      <button  *ngIf="this.adApi.logout"  style="font-weight:bolder;" class="btn  me-5 border btn-outline-dark " (click)="logout()"><span >Logout</span></button>
+
+    </div>
+
+  </nav>
